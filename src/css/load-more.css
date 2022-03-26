@@ -1,0 +1,32 @@
+.button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .button.is-hidden {
+    display: none;
+  }
+  
+  .button > .spinner.is-hidden {
+    display: none;
+  }
+  
+  .load-more {
+    margin-top: 30px;
+  
+    width: 120px;
+    height: 40px;
+  
+    background-color: #1565c0;
+    color: white;
+  }
+  
+  .load-more:hover,
+  .load-more:focus {
+    background-color: #165aa8;
+  }
+  
+  .loading {
+    width: 40px;
+  }
